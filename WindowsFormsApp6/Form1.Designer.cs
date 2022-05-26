@@ -92,7 +92,7 @@ namespace WindowsFormsApp6
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::WindowsFormsApp6.Properties.Resources.icons8_close_64;
-            this.pictureBox2.Location = new System.Drawing.Point(276, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(300, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(29, 28);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

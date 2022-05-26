@@ -96,7 +96,7 @@ namespace WindowsFormsApp6
             this.dgvEmployees.Location = new System.Drawing.Point(12, 285);
             this.dgvEmployees.Name = "dgvEmployees";
             this.dgvEmployees.ReadOnly = true;
-            this.dgvEmployees.Size = new System.Drawing.Size(718, 98);
+            this.dgvEmployees.Size = new System.Drawing.Size(718, 161);
             this.dgvEmployees.TabIndex = 11;
             // 
             // EMP_ID
@@ -133,7 +133,7 @@ namespace WindowsFormsApp6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(742, 397);
+            this.ClientSize = new System.Drawing.Size(742, 520);
             this.Controls.Add(this.dgvEmployees);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

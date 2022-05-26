@@ -40,27 +40,27 @@ namespace WindowsFormsApp6
             // 
             // textBox_ID
             // 
-            this.textBox_ID.Location = new System.Drawing.Point(157, 102);
+            this.textBox_ID.Location = new System.Drawing.Point(148, 104);
             this.textBox_ID.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_ID.Multiline = true;
             this.textBox_ID.Name = "textBox_ID";
-            this.textBox_ID.Size = new System.Drawing.Size(154, 37);
+            this.textBox_ID.Size = new System.Drawing.Size(154, 26);
             this.textBox_ID.TabIndex = 0;
             // 
             // textBox_PASS
             // 
-            this.textBox_PASS.Location = new System.Drawing.Point(157, 178);
+            this.textBox_PASS.Location = new System.Drawing.Point(148, 147);
             this.textBox_PASS.Margin = new System.Windows.Forms.Padding(4);
             this.textBox_PASS.Multiline = true;
             this.textBox_PASS.Name = "textBox_PASS";
             this.textBox_PASS.PasswordChar = '*';
-            this.textBox_PASS.Size = new System.Drawing.Size(154, 37);
+            this.textBox_PASS.Size = new System.Drawing.Size(154, 26);
             this.textBox_PASS.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(33, 105);
+            this.label1.Location = new System.Drawing.Point(24, 104);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(53, 17);
@@ -70,7 +70,7 @@ namespace WindowsFormsApp6
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(33, 187);
+            this.label2.Location = new System.Drawing.Point(24, 156);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(87, 17);
@@ -80,12 +80,15 @@ namespace WindowsFormsApp6
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(101, 270);
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(98, 209);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(106, 45);
+            this.button1.Size = new System.Drawing.Size(110, 45);
             this.button1.TabIndex = 4;
             this.button1.Text = "LOGIN";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox2
@@ -104,6 +107,7 @@ namespace WindowsFormsApp6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(341, 327);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
@@ -115,6 +119,7 @@ namespace WindowsFormsApp6
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);

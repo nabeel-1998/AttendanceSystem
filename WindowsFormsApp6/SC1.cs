@@ -30,8 +30,6 @@ public partial class SC1
 
     public string DATE { get; set; }
 
-    public string DAY { get; set; }
-
     public string REASON { get; set; }
 
 }

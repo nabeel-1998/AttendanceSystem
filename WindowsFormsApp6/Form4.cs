@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -52,9 +53,13 @@ namespace WindowsFormsApp6
             dataGridView1.AutoGenerateColumns = false;
             using (DBEntities db = new DBEntities())
             {
-                dataGridView1.DataSource = db.SC1.ToList<SC1>();
+                //dataGridView1.DataSource = db.SC1.ToList<SC1>();
+               dataGridView1.DataSource=db.SC1.OrderByDescending(s => s.DATE).ToList<SC1>();
+              // dataGridView1.DataSource=db.SC1.Concat(db.SC1.OrderByDescending(s => s.DATE)).ToList<SC1>();
+                
 
             }
+
         }
         //void calculate()
         //{
